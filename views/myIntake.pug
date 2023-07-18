@@ -1,0 +1,23 @@
+extends base
+
+block content
+  main.main 
+    .container
+      span.calorie-details= `Calories: ${user.calorie}`
+    .my-modification
+      form.form.form-user-settings#add-food(data-user-id=`${user._id}`)
+        .form__group.forfontcolor
+          label.form__label(for='food-add') Enter Food
+          input#food-input.form__input(type='text', placeholder='Banana', required)
+          .form__group.right
+            button.btn.btn--small.btn--green Save food   
+    .food-list
+      div.row.heading--food
+        div.column Name
+        div.column Calories
+        div.column Summary
+      each food, ind in foods
+        div.row
+          div.column #{food.name}
+          div.column #{food.calorie}
+          div.column #{food.summary}

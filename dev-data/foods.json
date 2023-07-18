@@ -1,0 +1,62 @@
+[
+  {
+    "name":"Apple",
+    "calorie":52,
+    "summary":"Rich in dietary fiber and antioxidants"
+  },
+  {
+    "name":"Banana",
+    "calorie":96,
+    "summary":"Good source of potassium and vitamin C"
+  },
+  {
+    "name":"Orange",
+    "calorie":43,
+    "summary":"Good source of dietary fiber"
+  },
+  {
+    "name":"Strawberry",
+    "calorie":32,
+    "summary":"Rich in vitamin C and antioxidants"
+  },
+  {
+    "name":"Watermelon",
+    "calorie":30,
+    "summary":"Low in calories and a good source of vitamins A and C"
+  },
+  {
+    "name":"Pineapple",
+    "calorie":50,
+    "summary":"Good source of vitamin C"
+  },
+  {
+    "name":"Grapes",
+    "calorie":69,
+    "summary":"Good source of vitamins C and K"
+  },
+  {
+    "name":"Blueberries",
+    "calorie":57,
+    "summary":"Have numerous health benefits, including supporting brain health"
+  },
+  {
+    "name":"Mango",
+    "calorie":60,
+    "summary":"Good source of vitamins A and C and provide dietary fiber"
+  },
+  {
+    "name":"Kiwi",
+    "calorie":61,
+    "summary":"High in vitamin C, vitamin K, and dietary fiber"
+  },
+  {
+    "name":"Avocado",
+    "calorie":160,
+    "summary":"Rich in healthy fats, fiber"
+  },
+  {
+    "name":"Pomegranate",
+    "calorie":83,
+    "summary":"Packed with antioxidants and have been associated with various health benefits"
+  }
+]
