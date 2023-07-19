@@ -13,18 +13,13 @@ block content
       nav.user-view__menu
         ul.side-nav
           +sideNav('#', 'settings', 'Settings', true)
-          +sideNav('/my-tour', 'briefcase', 'My bookings', false)
-          +sideNav('#', 'star', 'My reviews', false)
-          +sideNav('#', 'credit-card', 'Billing', false)
-          +sideNav('#', 'briefcase', 'My bookings', false)
+          +sideNav('/myintake', 'briefcase', 'My Foods', false)
         - if(user.role === 'admin')
           .admin-nav
             h5.admin-nav__heading Admin
             ul.side-nav
-              +sideNav('#', 'map', 'Manage tours', false)
-              +sideNav('#', 'users', 'Manage users', false)
-              +sideNav('#', 'star', 'Manage reviews', false)
-              +sideNav('#', 'briefcase', 'Manage bookings', false)
+              +sideNav('#', 'map', 'Manage Foods', false)
+              +sideNav('#', 'users', 'Manage Users', false)
 
       .user-view__content
         .user-view__form-container

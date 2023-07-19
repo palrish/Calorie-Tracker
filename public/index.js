@@ -46,7 +46,6 @@ const logout = async () => {
       }, 500);
     }
   } catch (err) {
-    console.log(err);
     showAlert('error', 'Error logging out!! Please try again.');
   }
 };
@@ -72,7 +71,6 @@ const signup = async (data) => {
       data,
     });
     if (res.status === 200) {
-      console.log('done');
       showAlert('success', 'Account Created Successfully!');
       window.setTimeout(() => {
         location.assign('/myintake');
@@ -124,7 +122,6 @@ const addFoodEntry = async (food, userId) => {
 const addFood = document.getElementById('add-food');
 
 if (addFood) {
-  console.log('kljkl');
   addFood.addEventListener('submit', (e) => {
     e.preventDefault();
     const food = document.getElementById('food-input').value;
